@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  /* display: absolute; */
+}
+
+
+.container {
+  /* padding: 20px; */
+  width: 90%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.main-box {
+  /* display: relative; */
+  width: 42%;
+  height: auto;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  box-shadow: ;
+  background-color: rgb(65, 105, 225);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 30px;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.075);
+margin-right: 35px;
+  margin-bottom: 35px;
+  padding-bottom: 8px;
+}
+.blockquote {
+  padding: 20px;
+  padding-top: 10px;
+}
+.quote {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 30px;
+  margin-top: 35px;
+}
+
+.img {
+  position: relative;
+  top: 40px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: 40px;
+}
+.name {
+  padding-left: 32px;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+.job {
+  font-size: 14px;
+}
+.btn {
+  background-color: #fff;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #087f5b;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.btn--active {
+  background-color: #087f5b;
+}
+
+.buttons {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 50px;
+  text-align: center;
+
+  /* align-items: center;
+  justify-content: center; */
+}
+/* .carousel {
+    position: absolute;
+    top: 220px;
+    right: 260px;
+    width: 28px;
+    height: 28px;
+    border: 1px solid purple;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #087f5b;
+  } */
+
+/* .container {
+    width: 60%;
+    height: 280px;
+    margin: 100px auto;  
+  
+    display: flex;
+    flex-direction: column;
+  } */
+
+@media (max-width: 1000px) {
+  .main-box {
+    display: flex;
+    flex-direction: column;
+  }
+}

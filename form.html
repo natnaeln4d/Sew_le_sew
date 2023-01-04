@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Debo Engineering" />
+    <meta name="description" content="Sew le Sew - Charity Organization located in Jimma" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0" />
+    <title>Sew le Sew - Charity Organization</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:ital,wght@0,400;1,300;1,400&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Poppins:ital,wght@0,400;1,300;1,400&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="creatingsteps.css" />
+    <script src="https://kit.fontawesome.com/10f6dbc809.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ======== form section=============== -->
+
+
+    <section class="whole-container">
+        <div class="home-reg">
+            <a href="index.html" class="span-reg">Home </a><span class="span-reg">/ Registration</span>
+        </div>
+
+        <div class="reg-p ">
+            <p>Welcome to Registration form. We are collecting some information of our members. We keep your privacy, from thirdy party. If you are interested please fill the form provided below. </p>
+
+        </div>
+
+        <form method="POST" action="form.php" class="forms-container" enctype="multipart/form-data">
+
+            <h2 class="section-title reg-title">Registration Form</h2>
+            <div class="dash"></div>
+            <div class="forms active-forms">
+                <div class="fname data-container">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" class="input" id="fname" />
+                </div>
+
+                <div class="mname data-container">
+                    <label for="">Midle Name</label>
+                    <input type="text" name="mname" class="input" id="mname" />
+                </div>
+
+                <div class="lname data-container">
+                    <label for="">Last Name</label>
+                    <input type="text" name="lname" class="input" id="lname" />
+                </div>
+
+                <div class="gender data-container ">
+                    <label for="gender">Gender</label>
+                    <select name="gender">
+                  <option value="male">
+                  Male
+                </option>
+
+                <option value="female">Female</option>
+                <option value="other">other</option>
+                </select>
+                </div>
+                <div class="age data-container">
+                    <label for="">Age</label>
+                    <input type="text" name="age" class="input" id="age" />
+                </div>
+
+             
+
+
+            </div>
+
+            <!-- the second form section -->
+            <div class="forms">
+
+               
+                <div class="email data-container">
+                    <label for="">Email</label>
+                    <input type="email" name="email" class="input" id="email" required />
+                </div>
+
+                <div class="city data-container">
+                    <label for="">City</label>
+                    <input type="text" name="city" class="input" id="city" />
+                </div>
+
+                <div class="phone data-container">
+                    <label for="">Phone number</label>
+                    <input type="text" name="phone" class="input" id="phone" minlength="10" required />
+                </div>
+
+                <div class="occupation data-container">
+                    <label for="">Occupation</label>
+                    <!-- <input type="text" name="occupation" class="input" id="occupation" /> -->
+                    <select name="occupation">
+                        <option value="merchant">Merchant</option>
+                        <option value="officer">Government Officer</option>
+                        <option value="student">Student</option>
+                        <option value="other">Other</option>
+
+
+                    </select>
+                </div>
+
+                <div class="college-container">
+                    <label for="collage">College</label>
+                    <select name="collage">
+        <option value="cavm">
+          College of Agriculture and Veterinary Medicine
+        </option>
+
+        <option value="cbe">College of Business and Economics</option>
+        <option value="cebs">
+          College of Educational and Behavioral Science
+        </option>
+        <option value="ioh">Institute of health</option>
+        <option value="clg">College of Law and Governance</option>
+        <option value="cns">College of Natural Science</option>
+        <option value="cssh">
+          College of Social Science and Humanities
+        </option>
+        <option value="jit">Jimma Institute of Technlology</option>
+        <option value="other">Other</option>
+        <option value="">None</option>
+      </select>
+                </div>
+                <div class="department data-container">
+                    <label for="department">Department</label>
+                    <input type="text" name="department" class="input" id="department" />
+                </div>
+
+            </div>
+
+            <div class="forms">
+
+                <div class="location data-container">
+                    <label for="location">Office Location</label>
+                    <input type="text" name="location" class="input" id="location"  />
+                </div>
+
+                <div class="data-container">
+                    <label for="money">How much would you like to donate per month?</label>
+                    <input type="text" name="pay" class="input" id="how" min-length="1" required />
+                </div>
+
+                <div class="account data-container">
+                    <label for="">CBE Account Number:</label>
+                    <input type="text" name="account" class="input" minlength="13" required/>
+                </div>
+                <div class="file">
+                    <label for="">Identification Card Image(ID Card)</label>
+                    <p class="file-par">
+                        Add Scanned / Captured image of your Institutional or Kebele ID card
+                    </p>
+                    <div class="id-inner">
+                        <input type="file" name="uploadfile" class="input" required />
+                    </div>
+                </div>
+                <div class="comment">
+                    <label for="comment">Your comment:</label><br />
+
+                    <textarea id="comment" name="comment" rows="5" cols="33">
+      </textarea>
+                </div>
+            </div>
+
+            <div class="container-body">
+                <div class="container">
+                    <div class="progress-container">
+                        <div class="progress" id="progress"></div>
+                        <div class="circle active" id="circle">1</div>
+                        <div class="circle" id="circle">2</div>
+                        <div class="circle" id="circle">3</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <input type="submit" class="btn-form submit-btns" id="submit" value="Submit" name="submit" disabled />
+
+        </form>
+        <div class="container-body">
+            <div class="control-btn">
+                <button class="btn-form prev-btn" id="prev" disabled>Previus</button>
+                <button class="btn-form next-p" id="next">Next</button>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ======== form section=============== -->
+
+
+
+    <section class="footer-section" id="contact">
+        <footer>
+            <h2 class="section-title">Contact</h2>
+            <div class="Dash"></div>
+            <div class="row">
+                <div class="cols">
+                    <div class="contact-box">
+                        <div class="contact-icon"><i class="fad fa-map-marker-alt"></i></div>
+                        <div class="contact-text">
+                            <h3 class="sub-header">Location</h3>
+                            <p>Jimma,Oromia,Ethiopia</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="contact-icon"><i class="fas fa-phone-square-alt"></i></div>
+                        <div class="contact-text">
+                            <h3 class="sub-header phone">Phone</h3>
+                            <p>+251-9-65-02-02-02</p>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="contact-box">
+                        <div class="contact-icon"> <a href="mailto:sewlesewjimma@gmail.com" class="email"><i class="fas fa-envelope-square"></i></a></div>
+                        <div class="contact-text">
+                            <h3 class="sub-header">Email</h3>
+                            <a href="mailto: sewlesewjimma@gmail.com">sewlesewjimma@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="contact-icon"><a href="https://www.facebook.com/jimmasewlesew" class="facebook"><i class="fab fa-facebook"></i></a></div>
+                        <div class="contact-text">
+                            <h3 class="sub-header">Facebook</h3>
+                            <a href="http://www.facebook.com/jimmasewlesew">facebook.com/jimmasewlsew</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+
+
+            <div class="hr-line"></div>
+            <div class="foot-last">
+                <p>Powered by <a href="#">Debo Engineering </a>&copy;2022</p>
+
+            </div>
+        </footer>
+    </section>
+
+
+    <!-- end of form -->
+    <script src="creatingsteps.js"></script>
+</body>
+
+</html>
